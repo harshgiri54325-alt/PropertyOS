@@ -115,3 +115,4 @@ export default function Home() {
 
   async function removeLead(id) {
     await supabase.from("leads").delete().eq("id", id);
+  }
